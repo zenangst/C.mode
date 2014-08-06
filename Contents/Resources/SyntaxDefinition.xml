@@ -77,7 +77,7 @@
     
             <state id="Preprocessor" color="#683821" scope="style.at-rule">
                 <begin><regex>#</regex></begin>
-                <end><regex>(\w+\s\w+|\w+)</regex></end>
+                <end><regex>([\n]+)</regex></end>
                 <keywords id="Numbers" color="#00f" useforautocomplete="no" scope="constant.numeric">
                     <regex>(?&lt;=[^\w\d]|^)(([+-]?(([0-9]+\.[0-9]*)|(\.[0-9]+))([eE][+\-]?[0-9]+)?[fFlL]?)|((([1-9][0-9]*)|0[0-7]*|(0[xX][0-9a-fA-F]+))(([uU][lL]?)|([lL][uU]?))?))(?=[^\w\d]|$)</regex>
                 </keywords>
